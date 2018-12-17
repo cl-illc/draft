@@ -9,7 +9,7 @@
     <a href="{{ group.subscribe }}" title="{{ site.data.language.read }} {{ group.title | escape_once }}">Subscribe</a>
     {% endif %}
     <p>
-      {% if group.image.thumb %}<a href="{{ group.url }}" title="{{ group.title | escape_once }}"><img src="/images/groups/{{ group.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
+      {% if group.image.thumb %}<a href="{{ group.url }}" title="{{ group.title | escape_once }}"><img src="{{ site.urlimg }}{{ group.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
 
       {% if group.teaser %}{{ group.teaser | strip_html | escape | markdownify }}{% endif %}
     </p>

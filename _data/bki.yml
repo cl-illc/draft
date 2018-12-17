@@ -4,7 +4,7 @@
   when: Semester 2, period 4
   prog: Bachelor Artificial Intelligence
   image:
-    thumb: nlmi.jpg
+    thumb: /courses/nlmi.jpg
   title: Natural Language Models and Interfaces
   url: //uva-slpl.github.io/nlmi/
   institution: UvA

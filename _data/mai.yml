@@ -4,7 +4,7 @@
   prog: Master Artificial Intelligence
   when: Semester 1, period 2
   image:
-    thumb: nlp1.jpg
+    thumb: courses/nlp1.jpg
   title: Natural Language Processing I
   url: //cl-illc.github.io/nlp1/
   institution: UvA
@@ -17,7 +17,7 @@
   when: Semester 2, period 5
   prog: Master Artificial Intelligence
   image:
-    thumb: ull.jpg
+    thumb: courses/ull.jpg
   title: Unsupervised Language Learning
   url: //uva-slpl.github.io/ull/
   institution: UvA
@@ -30,7 +30,7 @@
   when: Semester 2, period 5
   prog: Master Artificial Intelligence
   image:
-    thumb: nlp2.jpg
+    thumb: courses/nlp2.jpg
   title: Natural Language Processing II
   url: //uva-slpl.github.io/nlp2/
   institution: UvA

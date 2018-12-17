@@ -9,7 +9,7 @@
     <a href="{{ demo.subscribe }}" title="{{ site.data.language.read }} {{ demo.title | escape_once }}"><strong>Subscribe</strong></a>
     {% endif %}
     <p>
-      {% if demo.image.thumb %}<a href="{{ demo.url }}" title="{{ demo.title | escape_once }}"><img src="/images/demos/{{ demo.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
+      {% if demo.image.thumb %}<a href="{{ demo.url }}" title="{{ demo.title | escape_once }}"><img src="{{ site.urlimg }}{{ demo.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
 
       {% if demo.teaser %}{{ demo.teaser | strip_html | escape | markdownify }}{% endif %}
     </p>

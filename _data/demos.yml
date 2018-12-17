@@ -4,7 +4,7 @@
   people: "Dieuwke and Jelle"
   url:
   image:
-    thumb: diadcls.jpg
+    thumb: /demos/diadcls.jpg
   teaser: |
     ...
 -
@@ -13,6 +13,6 @@
   people: "Wilker Aziz"
   url:
   image:
-    thumb: snt.jpg
+    thumb: /demos/snt.jpg
   teaser: |
     ...

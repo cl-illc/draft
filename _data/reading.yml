@@ -4,7 +4,7 @@
   people: "Joost Bastings and Samira Abnar"
   url: '/reading/dl'
   image:
-    thumb: dl.jpg
+    thumb: /groups/dl.jpg
   teaser: |
     This reading group meets every other Tuesday to discuss papers on applications of deep learning to natural language processing.
   subscribe: https://list.uva.nl/mailman/listinfo/dlm-illc
@@ -14,7 +14,7 @@
   people: "Wilker Aziz"
   url: 'https://wilkeraziz.github.io/pages/inference'
   image:
-    thumb: inf.jpg
+    thumb: /groups/inf.jpg
   teaser: |
     This reading group meets to discuss advanced approximate inference techniques, in particular, in the context of deep generative models
 
