@@ -1,0 +1,41 @@
+- title: Start
+  url: "/"
+  side: left
+
+- title: People
+  url: "/people/"
+  side: left
+
+- title: Courses
+  url: "/courses/"
+  side: left
+  dropdown:
+  - title: "BAI"
+    url: "/BKI/"
+  - title: "MAI"
+    url: "/MAI/"
+  - title: "MoL"
+    url: "/MoL/"
+
+- title: Reading Groups
+  url: "/reading/"
+  side: left
+
+- title: Demos
+  url: "/demos/"
+  side: left
+
+- title: Blog
+  url: "/blog/"
+  side: left
+  dropdown:
+  - title: "Blog Archive"
+    url: "/blog/archive/"
+
+#- title: "Search"
+#  url: "/search/"
+#  side: right
+
+- title: "Contact"
+  url: "/contact/"
+  side: right

@@ -1,0 +1,17 @@
+
+
+<div class="row">
+  <div class="small-12 columns b60">
+
+    <h2>{{ group.title }}</h2>
+    <!-- <p class="subheadline">{{ group.people }}</p> -->
+    {% if group.subscribe %}
+    <a href="{{ group.subscribe }}" title="{{ site.data.language.read }} {{ group.title | escape_once }}">Subscribe</a>
+    {% endif %}
+    <p>
+      {% if group.image.thumb %}<a href="{{ group.url }}" title="{{ group.title | escape_once }}"><img src="/images/groups/{{ group.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
+
+      {% if group.teaser %}{{ group.teaser | strip_html | escape | markdownify }}{% endif %}
+    </p>
+  </div><!-- /.small-12.columns -->
+</div><!-- /.row -->

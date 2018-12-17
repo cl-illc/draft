@@ -1,0 +1,18 @@
+-
+  selected: y
+  title: "Diagnostic classifiers"
+  people: "Dieuwke and Jelle"
+  url:
+  image:
+    thumb: diadcls.jpg
+  teaser: |
+    ...
+-
+  selected: y
+  title: "Sentence generation"
+  people: "Wilker Aziz"
+  url:
+  image:
+    thumb: snt.jpg
+  teaser: |
+    ...

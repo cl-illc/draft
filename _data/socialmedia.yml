@@ -1,0 +1,9 @@
+- name: GitHub
+  url: http://github.com/cl-illc
+  class: icon-github
+  title: Code and more
+
+- name: Twitter
+  url: http://twitter.com/AmsterdamNLP
+  class: icon-twitter
+  title: "NLP people in Amsterdam"

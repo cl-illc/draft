@@ -1,0 +1,16 @@
+
+
+<div class="row">
+  <div class="small-12 columns b60">
+
+    <h2>{{ course.title }}</h2>
+    <p class="subheadline">{{ course.when }}</p>
+    <p>
+      {% if course.image.thumb %}<a href="{{ course.url }}" title="{{ course.title | escape_once }}"><img src="/images/courses/{{ course.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
+
+      {% if course.meta_description %}{{ course.meta_description | strip_html | escape | markdownify }}{% elsif course.teaser %}{{ course.teaser | strip_html | escape | markdownify }}{% endif %}
+
+      <a href="{{ course.url }}" title="{{ site.data.language.read }} {{ course.title | escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
+    </p>
+  </div><!-- /.small-12.columns -->
+</div><!-- /.row -->

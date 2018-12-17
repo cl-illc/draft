@@ -1,0 +1,43 @@
+-
+  layout: course
+  selected: y
+  prog: Master Artificial Intelligence
+  when: Semester 1, period 2
+  image:
+    thumb: nlp1.jpg
+  title: Natural Language Processing I
+  url: //cl-illc.github.io/nlp1/
+  institution: UvA
+  github:
+  teaser: This course introduces Natural Language Processing for the MSc AI
+
+-
+  layout: course
+  selected: y
+  when: Semester 2, period 5
+  prog: Master Artificial Intelligence
+  image:
+    thumb: ull.jpg
+  title: Unsupervised Language Learning
+  url: //uva-slpl.github.io/ull/
+  institution: UvA
+  github: uva-slpl/ull
+  teaser: The course covers advanced unsupervised learning techniques in natural language processing with a focus on meaning representation.
+
+-
+  layout: course
+  selected: y
+  when: Semester 2, period 5
+  prog: Master Artificial Intelligence
+  image:
+    thumb: nlp2.jpg
+  title: Natural Language Processing II
+  url: //uva-slpl.github.io/nlp2/
+  institution: UvA
+  github: uva-slpl/nlp2
+  teaser: |
+    This is a course about multilinguality and machine translation where we cover:
+
+    * Unsupervised word alignments: directed models (EM estimation and VB) and undirected models (MLE via gradient-based optimisation)
+    * Statistical machine translation: (hierarchical) phrase-based MT (linear models), latent-variable CRF for hierarhical PBSMT
+    * Neural machine translation: fully supervised sequence to sequence models, deep generative models
