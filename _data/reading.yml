@@ -2,7 +2,7 @@
   selected: y
   title: "Deep learning for NLP"
   people: "Joost Bastings and Samira Abnar"
-  url: '/reading/dl'
+  url: '/draft/dl'
   image:
     thumb: /groups/dl.jpg
   teaser: |

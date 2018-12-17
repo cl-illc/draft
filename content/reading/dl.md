@@ -5,7 +5,7 @@ header: no
 #meta_title: "Find us"
 #subheadline: "Wufoo-powered contact forms"
 #teaser: "Get in touch with me? Use the contact form."
-permalink: "/reading/dl/"
+permalink: "/dl/"
 ---
 
 
